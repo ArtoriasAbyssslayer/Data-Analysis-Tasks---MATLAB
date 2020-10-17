@@ -1,5 +1,0 @@
-clear all;
-clc;
-for i = 1 : 1000
-    flip(i) = rand([0,1]);
-    avg(i) = mea
