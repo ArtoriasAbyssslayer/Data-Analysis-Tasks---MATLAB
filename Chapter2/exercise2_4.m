@@ -31,4 +31,5 @@ semilogx(sizeOfSamples,val_A,'--or');
 hold on;
 semilogx(sizeOfSamples,val_B,'--ob');
 xlabel("n: sample size");
+title("E[1/X] = 1/E[X]?");
 legend("E[1/X]", "1/E[X]");
